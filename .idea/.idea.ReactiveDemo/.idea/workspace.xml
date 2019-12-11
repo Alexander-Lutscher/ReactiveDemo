@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="214103d3-33b4-40ce-9dc4-190a2e686bd2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/PasswordTextfeld.xaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PasswordTextfeldViewModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ReactiveDemo/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ReactiveDemo/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ReactiveDemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ReactiveDemo/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/App.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/App.xaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NugetDetailsViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NugetDetailsViewModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PasswordTextfeld.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/PasswordTextfield.xaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PasswordTextfeld.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PasswordTextfeld.xaml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PasswordTextfeldViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PasswordTextfieldViewModel.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ReactiveDemo.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/ReactiveDemo.csproj" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,72 +18,74 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PasswordTextfeld.xaml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="18" column="15" lean-forward="true" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
-              <folding>
-                <marker date="1575500337208" expanded="true" signature="0:1009" ph="&lt;&lt;Grid&gt;&#10;        &#10;    &lt;/Grid&gt;.../&gt;" />
-                <marker date="1575500337208" expanded="true" signature="474:999" ph="&lt;&lt;StackPanel Orientation=&quot;Horizontal&quot; Margin=&quot;10&quot;&gt;&#10;        &lt;TextBox x:Name=&quot;TextBox&quot; Width=&quot;200&quot;  HorizontalAlignment=&quot;Left&quot;/&gt;&#10;        &lt;Button x:Name=&quot;Button&quot; Width=&quot;50&quot;&gt; Click Me&lt;/Button&gt;&#10;        &lt;/StackPanel&gt;.../&gt;" />
-                <marker date="1575500337208" expanded="true" signature="497:664" ph="&lt;.../&gt;" />
-                <marker date="1575500337208" expanded="true" signature="698:983" ph="&lt;&lt;TextBox x:Name=&quot;TextBox&quot; Width=&quot;200&quot;  HorizontalAlignment=&quot;Left&quot;/&gt; &lt;Button x:Name=&quot;Button&quot; Width=&quot;50&quot;&gt; Click Me&lt;/Button&gt;.../&gt;" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PasswordTextfeldViewModel.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="28" lean-forward="true" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
-              <folding>
-                <marker date="1575499640862" expanded="true" signature="22:90" ph="{...}" />
-                <marker date="1575499640862" expanded="true" signature="67:88" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/PasswordTextfield.xaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="12" column="38" lean-forward="true" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+              <folding>
+                <marker date="1576105736591" expanded="true" signature="0:1299" ph="&lt;&lt;Grid&gt;&#10;                &lt;Grid.RowDefinitions&gt;&#10;                        &lt;RowDefinition Height=&quot;50&quot;/&gt;&#10;                        &lt;RowDefinition Height=&quot;50&quot;/&gt;&#10;                        &lt;RowDefinition Height=&quot;*&quot;/&gt;&#10;                &lt;/Grid.RowDefinitions&gt;&#10;                &#10;                &lt;StackPanel Orientation=&quot;Horizontal&quot; Margin=&quot;10&quot;&gt;&#10;                &lt;TextBox x:Name=&quot;TextBox&quot; Width=&quot;200&quot; Margin=&quot;10 0&quot; Padding=&quot;5&quot; HorizontalAlignment=&quot;Left&quot;/&gt;&#10;                &lt;Button x:Name=&quot;Button&quot; Width=&quot;100&quot; Margin=&quot;10 0&quot; Padding=&quot;5&quot;&gt; Click Me&lt;/Button&gt;&#10;                &lt;/StackPanel&gt;&#10;                &lt;StackPanel Grid.Row=&quot;1&quot;&gt;&#10;                        &lt;TextBlock x:Name=&quot;PasswordBox&quot; Width=&quot;200&quot; Margin=&quot;10 10&quot; Padding=&quot;5&quot; HorizontalAlignment=&quot;Left&quot; &gt;&#10;                                asödkjfsdölfkjsdlkgh&#10;                        &lt;/TextBlock&gt;&#10;                &lt;/StackPanel&gt;&#10;        &lt;/Grid&gt;.../&gt;" />
+                <marker date="1576105736591" expanded="true" signature="427:1289" ph="&lt;&lt;Grid.RowDefinitions&gt;&#10;                        &lt;RowDefinition Height=&quot;50&quot;/&gt;&#10;                        &lt;RowDefinition Height=&quot;50&quot;/&gt;&#10;                        &lt;RowDefinition Height=&quot;*&quot;/&gt;&#10;                &lt;/Grid.RowDefinitions&gt; &lt;StackPanel Orientation=&quot;Horizontal&quot; Margin=&quot;10&quot;&gt;&#10;                &lt;TextBox x:Name=&quot;TextBox&quot; Width=&quot;200&quot; Margin=&quot;10 0&quot; Padding=&quot;5&quot; HorizontalAlignment=&quot;Left&quot;/&gt;&#10;                &lt;Button x:Name=&quot;Button&quot; Width=&quot;100&quot; Margin=&quot;10 0&quot; Padding=&quot;5&quot;&gt; Click Me&lt;/Button&gt;&#10;                &lt;/StackPanel&gt; &lt;StackPanel Grid.Row=&quot;1&quot;&gt;&#10;                        &lt;TextBlock x:Name=&quot;PasswordBox&quot; Width=&quot;200&quot; Margin=&quot;10 10&quot; Padding=&quot;5&quot; HorizontalAlignment=&quot;Left&quot; &gt;&#10;                                asödkjfsdölfkjsdlkgh&#10;                        &lt;/TextBlock&gt;&#10;                &lt;/StackPanel&gt;.../&gt;" />
+                <marker date="1576105736591" expanded="true" signature="450:668" ph="&lt;&lt;RowDefinition Height=&quot;50&quot;/&gt; &lt;RowDefinition Height=&quot;50&quot;/&gt; &lt;RowDefinition Height=&quot;*&quot;/&gt;.../&gt;" />
+                <marker date="1576105736591" expanded="true" signature="702:987" ph="&lt;&lt;TextBox x:Name=&quot;TextBox&quot; Width=&quot;200&quot; Margin=&quot;10 0&quot; Padding=&quot;5&quot; HorizontalAlignment=&quot;Left&quot;/&gt; &lt;Button x:Name=&quot;Button&quot; Width=&quot;100&quot; Margin=&quot;10 0&quot; Padding=&quot;5&quot;&gt; Click Me&lt;/Button&gt;.../&gt;" />
+                <marker date="1576105736591" expanded="true" signature="1004:1273" ph="&lt;&lt;TextBlock x:Name=&quot;PasswordBox&quot; Width=&quot;200&quot; Margin=&quot;10 10&quot; Padding=&quot;5&quot; HorizontalAlignment=&quot;Left&quot; &gt;&#10;                                asödkjfsdölfkjsdlkgh&#10;                        &lt;/TextBlock&gt;.../&gt;" />
+                <marker date="1576105736591" expanded="true" signature="1054:1243" ph="&lt;asödkjfsdölfkjsdlkgh.../&gt;" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PasswordTextfieldViewModel.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="31" column="86" lean-forward="true" selection-start-line="31" selection-start-column="86" selection-end-line="31" selection-end-column="86" />
+              <folding>
+                <marker date="1576108471290" expanded="true" signature="6:105" ph="..." />
+                <marker date="1576108471290" expanded="true" signature="129:1536" ph="{...}" />
+                <marker date="1576108471290" expanded="true" signature="191:1534" ph="{...}" />
+                <marker date="1576108471290" expanded="true" signature="270:396" ph="{...}" />
+                <marker date="1576108471290" expanded="true" signature="466:592" ph="{...}" />
+                <marker date="1576108471290" expanded="true" signature="794:1528" ph="{...}" />
+                <marker date="1576108471290" expanded="true" signature="1061:1400" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/11A08C9A-0EB7-4C51-BC38-0AECA075D2E3/34/ReactiveObject.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="18" column="116" selection-start-line="18" selection-start-column="116" selection-end-line="18" selection-end-column="116" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PasswordTextfeld.xaml.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+            <state relative-caret-position="496">
+              <caret line="31" column="38" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
               <folding>
-                <marker date="1575499605171" expanded="true" signature="45:201" ph="{...}" />
-                <marker date="1575499605171" expanded="true" signature="98:199" ph="{...}" />
-                <marker date="1575499605171" expanded="true" signature="138:193" ph="{...}" />
+                <marker date="1576107351462" expanded="true" signature="6:74" ph="..." />
+                <marker date="1576107351462" expanded="true" signature="98:1286" ph="{...}" />
+                <marker date="1576107351462" expanded="true" signature="182:1284" ph="{...}" />
+                <marker date="1576107351462" expanded="true" signature="223:908" ph="{...}" />
+                <marker date="1576107351462" expanded="true" signature="465:896" ph="{...}" />
+                <marker date="1576107351462" expanded="true" signature="978:1060" ph="{...}" />
+                <marker date="1576107351462" expanded="true" signature="1095:1211" ph="{...}" />
               </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/App.xaml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-              <folding>
-                <marker date="1575499898967" expanded="true" signature="0:371" ph="&lt;&lt;Application.Resources&gt;&#10;         &#10;    &lt;/Application.Resources&gt;.../&gt;" />
-                <marker date="1575499898967" expanded="true" signature="294:356" ph="&lt;.../&gt;" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/packages.config">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MainWindow.xaml.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+            <state relative-caret-position="177">
+              <caret line="32" column="51" selection-start-line="32" selection-start-column="51" selection-end-line="32" selection-end-column="51" />
               <folding>
                 <marker date="1575488502717" expanded="false" signature="6:52" ph="..." />
                 <marker date="1575488502717" expanded="true" signature="76:1933" ph="{...}" />
@@ -97,7 +103,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MainWindow.xaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="329">
+              <caret line="22" column="71" selection-start-line="22" selection-start-column="58" selection-end-line="22" selection-end-column="71" />
               <folding>
                 <marker date="1575488502717" expanded="true" signature="0:1342" ph="&lt;&lt;Grid Margin=&quot;12&quot;&gt;&#10;        &lt;Grid.ColumnDefinitions&gt;&#10;            &lt;ColumnDefinition Width=&quot;Auto&quot; /&gt;&#10;            &lt;ColumnDefinition Width=&quot;*&quot; /&gt;&#10;        &lt;/Grid.ColumnDefinitions&gt;&#10;        &lt;Grid.RowDefinitions&gt;&#10;            &lt;RowDefinition Height=&quot;Auto&quot; /&gt;&#10;            &lt;RowDefinition Height=&quot;*&quot; /&gt;&#10;        &lt;/Grid.RowDefinitions&gt;&#10;        &lt;TextBlock FontSize=&quot;16&quot; FontWeight=&quot;SemiBold&quot;&#10;                   VerticalAlignment=&quot;Center&quot; Text=&quot;Search for: &quot; /&gt;&#10;        &lt;TextBox Grid.Column=&quot;1&quot; Margin=&quot;6 0 0 0&quot; x:Name=&quot;searchTextBox&quot; /&gt;&#10;        &lt;ListBox x:Name=&quot;searchResultsListBox&quot; Grid.ColumnSpan=&quot;3&quot;&#10;                 Grid.Row=&quot;1&quot; Margin=&quot;0,6,0,0&quot; HorizontalContentAlignment=&quot;Stretch&quot;&#10;                 ScrollViewer.HorizontalScrollBarVisibility=&quot;Disabled&quot; /&gt;&#10;    &lt;/Grid&gt;.../&gt;" />
                 <marker date="1575488502717" expanded="true" signature="556:1313" ph="&lt;&lt;Grid.ColumnDefinitions&gt;&#10;            &lt;ColumnDefinition Width=&quot;Auto&quot; /&gt;&#10;            &lt;ColumnDefinition Width=&quot;*&quot; /&gt;&#10;        &lt;/Grid.ColumnDefinitions&gt; &lt;Grid.RowDefinitions&gt;&#10;            &lt;RowDefinition Height=&quot;Auto&quot; /&gt;&#10;            &lt;RowDefinition Height=&quot;*&quot; /&gt;&#10;        &lt;/Grid.RowDefinitions&gt; &lt;TextBlock FontSize=&quot;16&quot; FontWeight=&quot;SemiBold&quot;&#10;                   VerticalAlignment=&quot;Center&quot; Text=&quot;Search for: &quot; /&gt; &lt;TextBox Grid.Column=&quot;1&quot; Margin=&quot;6 0 0 0&quot; x:Name=&quot;searchTextBox&quot; /&gt; &lt;ListBox x:Name=&quot;searchResultsListBox&quot; Grid.ColumnSpan=&quot;3&quot;&#10;                 Grid.Row=&quot;1&quot; Margin=&quot;0,6,0,0&quot; HorizontalContentAlignment=&quot;Stretch&quot;&#10;                 ScrollViewer.HorizontalScrollBarVisibility=&quot;Disabled&quot; /&gt;.../&gt;" />
@@ -111,32 +118,18 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NugetDetailsView.xaml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <marker date="1575488502718" expanded="true" signature="0:1104" ph="&lt;&lt;Grid&gt;&#10;        &lt;Grid.ColumnDefinitions&gt;&#10;            &lt;ColumnDefinition Width=&quot;Auto&quot; /&gt;&#10;            &lt;ColumnDefinition Width=&quot;*&quot; /&gt;&#10;        &lt;/Grid.ColumnDefinitions&gt;&#10;        &lt;Image x:Name=&quot;iconImage&quot; Margin=&quot;6&quot; Width=&quot;64&quot; Height=&quot;64&quot;&#10;               HorizontalAlignment=&quot;Center&quot; VerticalAlignment=&quot;Center&quot; /&gt;&#10;        &lt;TextBlock Grid.Column=&quot;1&quot; TextWrapping=&quot;WrapWithOverflow&quot;&#10;                   Margin=&quot;6&quot; VerticalAlignment=&quot;Center&quot;&gt;&#10;            &lt;Run FontSize=&quot;14&quot; FontWeight=&quot;SemiBold&quot; x:Name=&quot;titleRun&quot; /&gt;&#10;            &lt;LineBreak /&gt;&#10;            &lt;Run FontSize=&quot;12&quot; x:Name=&quot;descriptionRun&quot; /&gt;&#10;            &lt;LineBreak /&gt;&#10;            &lt;Hyperlink x:Name=&quot;openButton&quot;&gt;Open&lt;/Hyperlink&gt;&#10;        &lt;/TextBlock&gt;&#10;    &lt;/Grid&gt;.../&gt;" />
-                <marker date="1575488502718" expanded="true" signature="364:1070" ph="&lt;&lt;Grid.ColumnDefinitions&gt;&#10;            &lt;ColumnDefinition Width=&quot;Auto&quot; /&gt;&#10;            &lt;ColumnDefinition Width=&quot;*&quot; /&gt;&#10;        &lt;/Grid.ColumnDefinitions&gt; &lt;Image x:Name=&quot;iconImage&quot; Margin=&quot;6&quot; Width=&quot;64&quot; Height=&quot;64&quot;&#10;               HorizontalAlignment=&quot;Center&quot; VerticalAlignment=&quot;Center&quot; /&gt; &lt;TextBlock Grid.Column=&quot;1&quot; TextWrapping=&quot;WrapWithOverflow&quot;&#10;                   Margin=&quot;6&quot; VerticalAlignment=&quot;Center&quot;&gt;&#10;            &lt;Run FontSize=&quot;14&quot; FontWeight=&quot;SemiBold&quot; x:Name=&quot;titleRun&quot; /&gt;&#10;            &lt;LineBreak /&gt;&#10;            &lt;Run FontSize=&quot;12&quot; x:Name=&quot;descriptionRun&quot; /&gt;&#10;            &lt;LineBreak /&gt;&#10;            &lt;Hyperlink x:Name=&quot;openButton&quot;&gt;Open&lt;/Hyperlink&gt;&#10;        &lt;/TextBlock&gt;.../&gt;" />
-                <marker date="1575488502718" expanded="true" signature="379:526" ph="&lt;&lt;ColumnDefinition Width=&quot;Auto&quot; /&gt; &lt;ColumnDefinition Width=&quot;*&quot; /&gt;.../&gt;" />
-                <marker date="1575488502718" expanded="true" signature="535:668" ph="&lt;.../&gt;" />
-                <marker date="1575488502718" expanded="true" signature="677:1058" ph="&lt;&lt;Run FontSize=&quot;14&quot; FontWeight=&quot;SemiBold&quot; x:Name=&quot;titleRun&quot; /&gt; &lt;LineBreak /&gt; &lt;Run FontSize=&quot;12&quot; x:Name=&quot;descriptionRun&quot; /&gt; &lt;LineBreak /&gt; &lt;Hyperlink x:Name=&quot;openButton&quot;&gt;Open&lt;/Hyperlink&gt;.../&gt;" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/NugetDetailsViewModel.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+            <state relative-caret-position="228">
+              <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
               <folding>
-                <marker date="1575488502719" expanded="false" signature="6:113" ph="..." />
-                <marker date="1575488502719" expanded="true" signature="137:1350" ph="{...}" />
-                <marker date="1575488502719" expanded="true" signature="144:281" ph="/* This class wraps out NuGet model object into a ViewModel and allows ... */" />
-                <marker date="1575488502719" expanded="true" signature="337:1348" ph="{...}" />
-                <marker date="1575488502719" expanded="true" signature="515:724" ph="{...}" />
-                <marker date="1575488502719" expanded="true" signature="962:1281" ph="/* ReactiveCommand allows us to execute logic without exposing any of the ... */" />
+                <marker date="1576097649268" expanded="false" signature="6:113" ph="..." />
+                <marker date="1576097649268" expanded="true" signature="137:1403" ph="{...}" />
+                <marker date="1576097649268" expanded="true" signature="144:281" ph="/* This class wraps out NuGet model object into a ViewModel and allows ... */" />
+                <marker date="1576097649268" expanded="true" signature="337:1401" ph="{...}" />
+                <marker date="1576097649268" expanded="true" signature="515:777" ph="{...}" />
+                <marker date="1576097649268" expanded="true" signature="688:765" ph="{...}" />
+                <marker date="1576097649268" expanded="true" signature="1015:1334" ph="/* ReactiveCommand allows us to execute logic without exposing any of the ... */" />
               </folding>
             </state>
           </provider>
@@ -145,8 +138,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AppViewModel.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="383">
-              <caret line="48" column="15" selection-start-line="48" selection-start-column="15" selection-end-line="48" selection-end-column="15" />
+            <state relative-caret-position="21">
+              <caret line="35" column="93" selection-start-line="35" selection-start-column="93" selection-end-line="35" selection-end-column="93" />
               <folding>
                 <marker date="1575488502716" expanded="false" signature="6:248" ph="..." />
                 <marker date="1575488502716" expanded="true" signature="272:6157" ph="{...}" />
@@ -166,30 +159,76 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/App.xaml.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+              <folding>
+                <marker date="1575488502715" expanded="false" signature="6:77" ph="..." />
+                <marker date="1575488502715" expanded="true" signature="101:634" ph="{...}" />
+                <marker date="1575488502715" expanded="true" signature="108:181" ph="/// Interaktionslogik für &quot;App.xaml&quot; ... " />
+                <marker date="1575488502715" expanded="true" signature="224:632" ph="{...}" />
+                <marker date="1575488502715" expanded="true" signature="251:626" ph="{...}" />
+                <marker date="1575488502715" expanded="true" signature="274:522" ph="/* A helper method that will register all classes that derive off IViewFor ... */" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>_isAvailable</find>
+      <find>reactiveDemo</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/packages.config" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/11A08C9A-0EB7-4C51-BC38-0AECA075D2E3/05/23ad2310/IViewFor`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/NugetDetailsView.xaml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/App.xaml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/AppViewModel.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/PasswordTextfeld.xaml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/App.xaml.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MainWindow.xaml.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/PasswordTextfeldViewModel.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/PasswordTextfeld.xaml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/NugetDetailsView.xaml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/App.config" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MainWindow.xaml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/NugetDetailsViewModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/11A08C9A-0EB7-4C51-BC38-0AECA075D2E3/34/ReactiveObject.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/11A08C9A-0EB7-4C51-BC38-0AECA075D2E3/d6/62547c78/IReactiveObject.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/43D3C9AF-47B2-4DF6-8F8D-387316C51023/109/Select.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/43D3C9AF-47B2-4DF6-8F8D-387316C51023/20/Sink.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/43D3C9AF-47B2-4DF6-8F8D-387316C51023/AE/Throttle.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/43D3C9AF-47B2-4DF6-8F8D-387316C51023/E5/Scheduler.Simple.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/43D3C9AF-47B2-4DF6-8F8D-387316C51023/F1/UserWorkItem.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/43D3C9AF-47B2-4DF6-8F8D-387316C51023/D7/DefaultScheduler.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PasswordTextfield.xaml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5AB0E5B9-95F1-4261-9B13-2501CBDEBDD3/26/63bc008d/ReactiveWindow`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/43D3C9AF-47B2-4DF6-8F8D-387316C51023/D5/ConcurrencyAbstractionLayerImpl.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PasswordTextfieldViewModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PasswordTextfeld.xaml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2ECD3F11-D027-42CB-A32F-58723999A994/42/cfdcab25/TimerQueueTimer.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/43D3C9AF-47B2-4DF6-8F8D-387316C51023/4E/Observable.Single.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/43D3C9AF-47B2-4DF6-8F8D-387316C51023/D6/CurrentThreadScheduler.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2ECD3F11-D027-42CB-A32F-58723999A994/dc/bdbcc15b/ExecutionContext.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2ECD3F11-D027-42CB-A32F-58723999A994/f3/8c90c930/TimerQueue.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/PasswordTextfeld.xaml.cs" />
         <option value="$PROJECT_DIR$/PasswordTextfeldViewModel.cs" />
         <option value="$PROJECT_DIR$/App.xaml" />
         <option value="$PROJECT_DIR$/PasswordTextfeld.xaml" />
+        <option value="$PROJECT_DIR$/NugetDetailsViewModel.cs" />
+        <option value="$PROJECT_DIR$/AppViewModel.cs" />
+        <option value="$PROJECT_DIR$/PasswordTextfield.xaml" />
+        <option value="$PROJECT_DIR$/PasswordTextfeld.xaml.cs" />
+        <option value="$PROJECT_DIR$/PasswordTextfieldViewModel.cs" />
       </list>
     </option>
   </component>
@@ -211,6 +250,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AssemblyExplorer" />
       <pane id="FileSystemExplorer" />
       <pane id="SolutionExplorer">
         <subPane>
@@ -228,20 +268,31 @@
               <item name="" type="784c90a0:SolutionExplorerRootNode" />
               <item name="ReactiveDemo" type="24d0babc:SolutionExplorerModelNode" />
               <item name="ReactiveDemo" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="App.xaml" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="ReactiveDemo" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="ReactiveDemo" type="24d0babc:SolutionExplorerModelNode" />
               <item name="MainWindow.xaml" type="24d0babc:SolutionExplorerModelNode" />
             </path>
             <path>
               <item name="" type="784c90a0:SolutionExplorerRootNode" />
               <item name="ReactiveDemo" type="24d0babc:SolutionExplorerModelNode" />
               <item name="ReactiveDemo" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="PasswordTextfeld.xaml" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="NugetDetailsView.xaml" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="ReactiveDemo" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="ReactiveDemo" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="PasswordTextfield.xaml" type="24d0babc:SolutionExplorerModelNode" />
             </path>
           </expand>
           <select />
         </subPane>
         <option name="show-all-files" value="false" />
       </pane>
-      <pane id="AssemblyExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -249,6 +300,12 @@
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -294,12 +351,14 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575488531166</updated>
-      <workItem from="1575488534534" duration="8255000" />
+      <workItem from="1575488534534" duration="8861000" />
+      <workItem from="1576089477108" duration="1778000" />
+      <workItem from="1576092819526" duration="11733000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8255000" />
+    <option name="totallyTimeSpent" value="22372000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -312,39 +371,40 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24986681" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25519446" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="NuGet" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="XAML Preview" weight="0.32977587" />
-      <window_info anchor="bottom" id="Unit Tests" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Performance Profiler" />
-      <window_info anchor="bottom" id="Build" weight="0.32977587" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32977587" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32977587" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32870865" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.3991462" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Errors In Solution" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Unit Tests Coverage" />
+      <window_info anchor="bottom" id="NuGet" order="7" />
+      <window_info anchor="bottom" id="Performance Profiler" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="XAML Preview" order="12" weight="0.32977587" />
+      <window_info anchor="bottom" id="Unit Tests" order="13" />
+      <window_info anchor="bottom" id="Terminal" order="14" />
+      <window_info anchor="bottom" id="Event Log" order="15" side_tool="true" />
+      <window_info anchor="bottom" id="Build" order="16" weight="0.32977587" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="5" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -353,17 +413,205 @@
           <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
           <option name="timeStamp" value="1" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/AppViewModel.cs</url>
+          <line>79</line>
+          <properties documentPath="$PROJECT_DIR$/AppViewModel.cs" initialLine="79">
+            <startOffsets>
+              <option value="3949" />
+            </startOffsets>
+            <endOffsets>
+              <option value="3961" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/AppViewModel.cs</url>
+          <line>81</line>
+          <properties documentPath="$PROJECT_DIR$/AppViewModel.cs" initialLine="81">
+            <startOffsets>
+              <option value="4053" />
+            </startOffsets>
+            <endOffsets>
+              <option value="4065" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/AppViewModel.cs</url>
+          <line>86</line>
+          <properties documentPath="$PROJECT_DIR$/AppViewModel.cs" initialLine="86">
+            <startOffsets>
+              <option value="4314" />
+            </startOffsets>
+            <endOffsets>
+              <option value="4329" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/App.config">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/ReactiveDemo.csproj">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/MainWindow.xaml.cs">
+    <entry file="file://$PROJECT_DIR$/packages.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="37" selection-start-column="37" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5AB0E5B9-95F1-4261-9B13-2501CBDEBDD3/26/63bc008d/ReactiveWindow`1.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="42" column="91" lean-forward="true" selection-start-line="42" selection-start-column="61" selection-end-line="42" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/43D3C9AF-47B2-4DF6-8F8D-387316C51023/4E/Observable.Single.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="152" column="23" selection-start-line="152" selection-start-column="23" selection-end-line="152" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App.xaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+          <folding>
+            <marker date="1576090752017" expanded="true" signature="0:372" ph="&lt;&lt;Application.Resources&gt;&#10;         &#10;    &lt;/Application.Resources&gt;.../&gt;" />
+            <marker date="1576090752017" expanded="true" signature="295:357" ph="&lt;.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/43D3C9AF-47B2-4DF6-8F8D-387316C51023/D6/CurrentThreadScheduler.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="110" column="35" selection-start-line="110" selection-start-column="35" selection-end-line="110" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2ECD3F11-D027-42CB-A32F-58723999A994/dc/bdbcc15b/ExecutionContext.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="289" column="6" selection-start-line="289" selection-start-column="6" selection-end-line="289" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2ECD3F11-D027-42CB-A32F-58723999A994/42/cfdcab25/TimerQueueTimer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="156" column="6" selection-start-line="156" selection-start-column="6" selection-end-line="156" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2ECD3F11-D027-42CB-A32F-58723999A994/f3/8c90c930/TimerQueue.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="90" column="8" selection-start-line="90" selection-start-column="8" selection-end-line="90" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/43D3C9AF-47B2-4DF6-8F8D-387316C51023/109/Select.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="47" column="16" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/43D3C9AF-47B2-4DF6-8F8D-387316C51023/20/Sink.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="49" column="8" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/43D3C9AF-47B2-4DF6-8F8D-387316C51023/AE/Throttle.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="66" column="134" selection-start-line="66" selection-start-column="134" selection-end-line="66" selection-end-column="134" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/43D3C9AF-47B2-4DF6-8F8D-387316C51023/E5/Scheduler.Simple.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="136" column="78" selection-start-line="136" selection-start-column="78" selection-end-line="136" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/43D3C9AF-47B2-4DF6-8F8D-387316C51023/F1/UserWorkItem.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/43D3C9AF-47B2-4DF6-8F8D-387316C51023/D7/DefaultScheduler.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="75" column="35" selection-start-line="75" selection-start-column="35" selection-end-line="75" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/43D3C9AF-47B2-4DF6-8F8D-387316C51023/D5/ConcurrencyAbstractionLayerImpl.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="183" column="16" selection-start-line="183" selection-start-column="16" selection-end-line="183" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NugetDetailsView.xaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="51" lean-forward="true" selection-start-line="2" selection-start-column="51" selection-end-line="3" selection-end-column="56" />
+          <folding>
+            <marker date="1575488502718" expanded="true" signature="0:1104" ph="&lt;&lt;Grid&gt;&#10;        &lt;Grid.ColumnDefinitions&gt;&#10;            &lt;ColumnDefinition Width=&quot;Auto&quot; /&gt;&#10;            &lt;ColumnDefinition Width=&quot;*&quot; /&gt;&#10;        &lt;/Grid.ColumnDefinitions&gt;&#10;        &lt;Image x:Name=&quot;iconImage&quot; Margin=&quot;6&quot; Width=&quot;64&quot; Height=&quot;64&quot;&#10;               HorizontalAlignment=&quot;Center&quot; VerticalAlignment=&quot;Center&quot; /&gt;&#10;        &lt;TextBlock Grid.Column=&quot;1&quot; TextWrapping=&quot;WrapWithOverflow&quot;&#10;                   Margin=&quot;6&quot; VerticalAlignment=&quot;Center&quot;&gt;&#10;            &lt;Run FontSize=&quot;14&quot; FontWeight=&quot;SemiBold&quot; x:Name=&quot;titleRun&quot; /&gt;&#10;            &lt;LineBreak /&gt;&#10;            &lt;Run FontSize=&quot;12&quot; x:Name=&quot;descriptionRun&quot; /&gt;&#10;            &lt;LineBreak /&gt;&#10;            &lt;Hyperlink x:Name=&quot;openButton&quot;&gt;Open&lt;/Hyperlink&gt;&#10;        &lt;/TextBlock&gt;&#10;    &lt;/Grid&gt;.../&gt;" />
+            <marker date="1575488502718" expanded="true" signature="364:1070" ph="&lt;&lt;Grid.ColumnDefinitions&gt;&#10;            &lt;ColumnDefinition Width=&quot;Auto&quot; /&gt;&#10;            &lt;ColumnDefinition Width=&quot;*&quot; /&gt;&#10;        &lt;/Grid.ColumnDefinitions&gt; &lt;Image x:Name=&quot;iconImage&quot; Margin=&quot;6&quot; Width=&quot;64&quot; Height=&quot;64&quot;&#10;               HorizontalAlignment=&quot;Center&quot; VerticalAlignment=&quot;Center&quot; /&gt; &lt;TextBlock Grid.Column=&quot;1&quot; TextWrapping=&quot;WrapWithOverflow&quot;&#10;                   Margin=&quot;6&quot; VerticalAlignment=&quot;Center&quot;&gt;&#10;            &lt;Run FontSize=&quot;14&quot; FontWeight=&quot;SemiBold&quot; x:Name=&quot;titleRun&quot; /&gt;&#10;            &lt;LineBreak /&gt;&#10;            &lt;Run FontSize=&quot;12&quot; x:Name=&quot;descriptionRun&quot; /&gt;&#10;            &lt;LineBreak /&gt;&#10;            &lt;Hyperlink x:Name=&quot;openButton&quot;&gt;Open&lt;/Hyperlink&gt;&#10;        &lt;/TextBlock&gt;.../&gt;" />
+            <marker date="1575488502718" expanded="true" signature="379:526" ph="&lt;&lt;ColumnDefinition Width=&quot;Auto&quot; /&gt; &lt;ColumnDefinition Width=&quot;*&quot; /&gt;.../&gt;" />
+            <marker date="1575488502718" expanded="true" signature="535:668" ph="&lt;.../&gt;" />
+            <marker date="1575488502718" expanded="true" signature="677:1058" ph="&lt;&lt;Run FontSize=&quot;14&quot; FontWeight=&quot;SemiBold&quot; x:Name=&quot;titleRun&quot; /&gt; &lt;LineBreak /&gt; &lt;Run FontSize=&quot;12&quot; x:Name=&quot;descriptionRun&quot; /&gt; &lt;LineBreak /&gt; &lt;Hyperlink x:Name=&quot;openButton&quot;&gt;Open&lt;/Hyperlink&gt;.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NugetDetailsView.xaml.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="11" column="33" lean-forward="true" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+          <folding>
+            <marker date="1575488502718" expanded="false" signature="6:88" ph="..." />
+            <marker date="1575488502718" expanded="true" signature="112:1571" ph="{...}" />
+            <marker date="1575488502718" expanded="true" signature="119:203" ph="/// Interaktionslogik für NugetDetailsView.xaml ... " />
+            <marker date="1575488502718" expanded="true" signature="290:1569" ph="{...}" />
+            <marker date="1575488502718" expanded="true" signature="330:1563" ph="{...}" />
+            <marker date="1575488502718" expanded="true" signature="445:1551" ph="{...}" />
+            <marker date="1575488502718" expanded="true" signature="463:614" ph="/* Our 4th parameter we convert from Url into a BitmapImage. ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/11A08C9A-0EB7-4C51-BC38-0AECA075D2E3/05/23ad2310/IViewFor`1.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
-          <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MainWindow.xaml.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="32" column="51" selection-start-line="32" selection-start-column="51" selection-end-line="32" selection-end-column="51" />
           <folding>
             <marker date="1575488502717" expanded="false" signature="6:52" ph="..." />
             <marker date="1575488502717" expanded="true" signature="76:1933" ph="{...}" />
@@ -377,21 +625,56 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PasswordTextfeldViewModel.cs">
+    <entry file="file://$PROJECT_DIR$/NugetDetailsViewModel.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="28" lean-forward="true" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+        <state relative-caret-position="228">
+          <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
           <folding>
-            <marker date="1575499640862" expanded="true" signature="22:90" ph="{...}" />
-            <marker date="1575499640862" expanded="true" signature="67:88" ph="{...}" />
+            <marker date="1576097649268" expanded="false" signature="6:113" ph="..." />
+            <marker date="1576097649268" expanded="true" signature="137:1403" ph="{...}" />
+            <marker date="1576097649268" expanded="true" signature="144:281" ph="/* This class wraps out NuGet model object into a ViewModel and allows ... */" />
+            <marker date="1576097649268" expanded="true" signature="337:1401" ph="{...}" />
+            <marker date="1576097649268" expanded="true" signature="515:777" ph="{...}" />
+            <marker date="1576097649268" expanded="true" signature="688:765" ph="{...}" />
+            <marker date="1576097649268" expanded="true" signature="1015:1334" ph="/* ReactiveCommand allows us to execute logic without exposing any of the ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App.xaml.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+          <folding>
+            <marker date="1575488502715" expanded="false" signature="6:77" ph="..." />
+            <marker date="1575488502715" expanded="true" signature="101:634" ph="{...}" />
+            <marker date="1575488502715" expanded="true" signature="108:181" ph="/// Interaktionslogik für &quot;App.xaml&quot; ... " />
+            <marker date="1575488502715" expanded="true" signature="224:632" ph="{...}" />
+            <marker date="1575488502715" expanded="true" signature="251:626" ph="{...}" />
+            <marker date="1575488502715" expanded="true" signature="274:522" ph="/* A helper method that will register all classes that derive off IViewFor ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MainWindow.xaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="22" column="71" selection-start-line="22" selection-start-column="58" selection-end-line="22" selection-end-column="71" />
+          <folding>
+            <marker date="1575488502717" expanded="true" signature="0:1342" ph="&lt;&lt;Grid Margin=&quot;12&quot;&gt;&#10;        &lt;Grid.ColumnDefinitions&gt;&#10;            &lt;ColumnDefinition Width=&quot;Auto&quot; /&gt;&#10;            &lt;ColumnDefinition Width=&quot;*&quot; /&gt;&#10;        &lt;/Grid.ColumnDefinitions&gt;&#10;        &lt;Grid.RowDefinitions&gt;&#10;            &lt;RowDefinition Height=&quot;Auto&quot; /&gt;&#10;            &lt;RowDefinition Height=&quot;*&quot; /&gt;&#10;        &lt;/Grid.RowDefinitions&gt;&#10;        &lt;TextBlock FontSize=&quot;16&quot; FontWeight=&quot;SemiBold&quot;&#10;                   VerticalAlignment=&quot;Center&quot; Text=&quot;Search for: &quot; /&gt;&#10;        &lt;TextBox Grid.Column=&quot;1&quot; Margin=&quot;6 0 0 0&quot; x:Name=&quot;searchTextBox&quot; /&gt;&#10;        &lt;ListBox x:Name=&quot;searchResultsListBox&quot; Grid.ColumnSpan=&quot;3&quot;&#10;                 Grid.Row=&quot;1&quot; Margin=&quot;0,6,0,0&quot; HorizontalContentAlignment=&quot;Stretch&quot;&#10;                 ScrollViewer.HorizontalScrollBarVisibility=&quot;Disabled&quot; /&gt;&#10;    &lt;/Grid&gt;.../&gt;" />
+            <marker date="1575488502717" expanded="true" signature="556:1313" ph="&lt;&lt;Grid.ColumnDefinitions&gt;&#10;            &lt;ColumnDefinition Width=&quot;Auto&quot; /&gt;&#10;            &lt;ColumnDefinition Width=&quot;*&quot; /&gt;&#10;        &lt;/Grid.ColumnDefinitions&gt; &lt;Grid.RowDefinitions&gt;&#10;            &lt;RowDefinition Height=&quot;Auto&quot; /&gt;&#10;            &lt;RowDefinition Height=&quot;*&quot; /&gt;&#10;        &lt;/Grid.RowDefinitions&gt; &lt;TextBlock FontSize=&quot;16&quot; FontWeight=&quot;SemiBold&quot;&#10;                   VerticalAlignment=&quot;Center&quot; Text=&quot;Search for: &quot; /&gt; &lt;TextBox Grid.Column=&quot;1&quot; Margin=&quot;6 0 0 0&quot; x:Name=&quot;searchTextBox&quot; /&gt; &lt;ListBox x:Name=&quot;searchResultsListBox&quot; Grid.ColumnSpan=&quot;3&quot;&#10;                 Grid.Row=&quot;1&quot; Margin=&quot;0,6,0,0&quot; HorizontalContentAlignment=&quot;Stretch&quot;&#10;                 ScrollViewer.HorizontalScrollBarVisibility=&quot;Disabled&quot; /&gt;.../&gt;" />
+            <marker date="1575488502717" expanded="true" signature="583:730" ph="&lt;&lt;ColumnDefinition Width=&quot;Auto&quot; /&gt; &lt;ColumnDefinition Width=&quot;*&quot; /&gt;.../&gt;" />
+            <marker date="1575488502717" expanded="true" signature="739:876" ph="&lt;&lt;RowDefinition Height=&quot;Auto&quot; /&gt; &lt;RowDefinition Height=&quot;*&quot; /&gt;.../&gt;" />
+            <marker date="1575488502717" expanded="true" signature="885:1000" ph="&lt;.../&gt;" />
+            <marker date="1575488502717" expanded="true" signature="1085:1301" ph="&lt;.../&gt;" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AppViewModel.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="48" column="15" selection-start-line="48" selection-start-column="15" selection-end-line="48" selection-end-column="15" />
+        <state relative-caret-position="21">
+          <caret line="35" column="93" selection-start-line="35" selection-start-column="93" selection-end-line="35" selection-end-column="93" />
           <folding>
             <marker date="1575488502716" expanded="false" signature="6:248" ph="..." />
             <marker date="1575488502716" expanded="true" signature="272:6157" ph="{...}" />
@@ -410,83 +693,63 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/App.xaml">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/11A08C9A-0EB7-4C51-BC38-0AECA075D2E3/d6/62547c78/IReactiveObject.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-          <folding>
-            <marker date="1575499898967" expanded="true" signature="0:371" ph="&lt;&lt;Application.Resources&gt;&#10;         &#10;    &lt;/Application.Resources&gt;.../&gt;" />
-            <marker date="1575499898967" expanded="true" signature="294:356" ph="&lt;.../&gt;" />
-          </folding>
+        <state relative-caret-position="247">
+          <caret line="17" column="96" selection-start-line="17" selection-start-column="96" selection-end-line="17" selection-end-column="96" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/packages.config">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NugetDetailsView.xaml">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/11A08C9A-0EB7-4C51-BC38-0AECA075D2E3/34/ReactiveObject.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <marker date="1575488502718" expanded="true" signature="0:1104" ph="&lt;&lt;Grid&gt;&#10;        &lt;Grid.ColumnDefinitions&gt;&#10;            &lt;ColumnDefinition Width=&quot;Auto&quot; /&gt;&#10;            &lt;ColumnDefinition Width=&quot;*&quot; /&gt;&#10;        &lt;/Grid.ColumnDefinitions&gt;&#10;        &lt;Image x:Name=&quot;iconImage&quot; Margin=&quot;6&quot; Width=&quot;64&quot; Height=&quot;64&quot;&#10;               HorizontalAlignment=&quot;Center&quot; VerticalAlignment=&quot;Center&quot; /&gt;&#10;        &lt;TextBlock Grid.Column=&quot;1&quot; TextWrapping=&quot;WrapWithOverflow&quot;&#10;                   Margin=&quot;6&quot; VerticalAlignment=&quot;Center&quot;&gt;&#10;            &lt;Run FontSize=&quot;14&quot; FontWeight=&quot;SemiBold&quot; x:Name=&quot;titleRun&quot; /&gt;&#10;            &lt;LineBreak /&gt;&#10;            &lt;Run FontSize=&quot;12&quot; x:Name=&quot;descriptionRun&quot; /&gt;&#10;            &lt;LineBreak /&gt;&#10;            &lt;Hyperlink x:Name=&quot;openButton&quot;&gt;Open&lt;/Hyperlink&gt;&#10;        &lt;/TextBlock&gt;&#10;    &lt;/Grid&gt;.../&gt;" />
-            <marker date="1575488502718" expanded="true" signature="364:1070" ph="&lt;&lt;Grid.ColumnDefinitions&gt;&#10;            &lt;ColumnDefinition Width=&quot;Auto&quot; /&gt;&#10;            &lt;ColumnDefinition Width=&quot;*&quot; /&gt;&#10;        &lt;/Grid.ColumnDefinitions&gt; &lt;Image x:Name=&quot;iconImage&quot; Margin=&quot;6&quot; Width=&quot;64&quot; Height=&quot;64&quot;&#10;               HorizontalAlignment=&quot;Center&quot; VerticalAlignment=&quot;Center&quot; /&gt; &lt;TextBlock Grid.Column=&quot;1&quot; TextWrapping=&quot;WrapWithOverflow&quot;&#10;                   Margin=&quot;6&quot; VerticalAlignment=&quot;Center&quot;&gt;&#10;            &lt;Run FontSize=&quot;14&quot; FontWeight=&quot;SemiBold&quot; x:Name=&quot;titleRun&quot; /&gt;&#10;            &lt;LineBreak /&gt;&#10;            &lt;Run FontSize=&quot;12&quot; x:Name=&quot;descriptionRun&quot; /&gt;&#10;            &lt;LineBreak /&gt;&#10;            &lt;Hyperlink x:Name=&quot;openButton&quot;&gt;Open&lt;/Hyperlink&gt;&#10;        &lt;/TextBlock&gt;.../&gt;" />
-            <marker date="1575488502718" expanded="true" signature="379:526" ph="&lt;&lt;ColumnDefinition Width=&quot;Auto&quot; /&gt; &lt;ColumnDefinition Width=&quot;*&quot; /&gt;.../&gt;" />
-            <marker date="1575488502718" expanded="true" signature="535:668" ph="&lt;.../&gt;" />
-            <marker date="1575488502718" expanded="true" signature="677:1058" ph="&lt;&lt;Run FontSize=&quot;14&quot; FontWeight=&quot;SemiBold&quot; x:Name=&quot;titleRun&quot; /&gt; &lt;LineBreak /&gt; &lt;Run FontSize=&quot;12&quot; x:Name=&quot;descriptionRun&quot; /&gt; &lt;LineBreak /&gt; &lt;Hyperlink x:Name=&quot;openButton&quot;&gt;Open&lt;/Hyperlink&gt;.../&gt;" />
-          </folding>
+        <state relative-caret-position="228">
+          <caret line="18" column="116" selection-start-line="18" selection-start-column="116" selection-end-line="18" selection-end-column="116" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NugetDetailsViewModel.cs">
+    <entry file="file://$PROJECT_DIR$/PasswordTextfieldViewModel.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        <state relative-caret-position="361">
+          <caret line="31" column="86" lean-forward="true" selection-start-line="31" selection-start-column="86" selection-end-line="31" selection-end-column="86" />
           <folding>
-            <marker date="1575488502719" expanded="false" signature="6:113" ph="..." />
-            <marker date="1575488502719" expanded="true" signature="137:1350" ph="{...}" />
-            <marker date="1575488502719" expanded="true" signature="144:281" ph="/* This class wraps out NuGet model object into a ViewModel and allows ... */" />
-            <marker date="1575488502719" expanded="true" signature="337:1348" ph="{...}" />
-            <marker date="1575488502719" expanded="true" signature="515:724" ph="{...}" />
-            <marker date="1575488502719" expanded="true" signature="962:1281" ph="/* ReactiveCommand allows us to execute logic without exposing any of the ... */" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MainWindow.xaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <marker date="1575488502717" expanded="true" signature="0:1342" ph="&lt;&lt;Grid Margin=&quot;12&quot;&gt;&#10;        &lt;Grid.ColumnDefinitions&gt;&#10;            &lt;ColumnDefinition Width=&quot;Auto&quot; /&gt;&#10;            &lt;ColumnDefinition Width=&quot;*&quot; /&gt;&#10;        &lt;/Grid.ColumnDefinitions&gt;&#10;        &lt;Grid.RowDefinitions&gt;&#10;            &lt;RowDefinition Height=&quot;Auto&quot; /&gt;&#10;            &lt;RowDefinition Height=&quot;*&quot; /&gt;&#10;        &lt;/Grid.RowDefinitions&gt;&#10;        &lt;TextBlock FontSize=&quot;16&quot; FontWeight=&quot;SemiBold&quot;&#10;                   VerticalAlignment=&quot;Center&quot; Text=&quot;Search for: &quot; /&gt;&#10;        &lt;TextBox Grid.Column=&quot;1&quot; Margin=&quot;6 0 0 0&quot; x:Name=&quot;searchTextBox&quot; /&gt;&#10;        &lt;ListBox x:Name=&quot;searchResultsListBox&quot; Grid.ColumnSpan=&quot;3&quot;&#10;                 Grid.Row=&quot;1&quot; Margin=&quot;0,6,0,0&quot; HorizontalContentAlignment=&quot;Stretch&quot;&#10;                 ScrollViewer.HorizontalScrollBarVisibility=&quot;Disabled&quot; /&gt;&#10;    &lt;/Grid&gt;.../&gt;" />
-            <marker date="1575488502717" expanded="true" signature="556:1313" ph="&lt;&lt;Grid.ColumnDefinitions&gt;&#10;            &lt;ColumnDefinition Width=&quot;Auto&quot; /&gt;&#10;            &lt;ColumnDefinition Width=&quot;*&quot; /&gt;&#10;        &lt;/Grid.ColumnDefinitions&gt; &lt;Grid.RowDefinitions&gt;&#10;            &lt;RowDefinition Height=&quot;Auto&quot; /&gt;&#10;            &lt;RowDefinition Height=&quot;*&quot; /&gt;&#10;        &lt;/Grid.RowDefinitions&gt; &lt;TextBlock FontSize=&quot;16&quot; FontWeight=&quot;SemiBold&quot;&#10;                   VerticalAlignment=&quot;Center&quot; Text=&quot;Search for: &quot; /&gt; &lt;TextBox Grid.Column=&quot;1&quot; Margin=&quot;6 0 0 0&quot; x:Name=&quot;searchTextBox&quot; /&gt; &lt;ListBox x:Name=&quot;searchResultsListBox&quot; Grid.ColumnSpan=&quot;3&quot;&#10;                 Grid.Row=&quot;1&quot; Margin=&quot;0,6,0,0&quot; HorizontalContentAlignment=&quot;Stretch&quot;&#10;                 ScrollViewer.HorizontalScrollBarVisibility=&quot;Disabled&quot; /&gt;.../&gt;" />
-            <marker date="1575488502717" expanded="true" signature="583:730" ph="&lt;&lt;ColumnDefinition Width=&quot;Auto&quot; /&gt; &lt;ColumnDefinition Width=&quot;*&quot; /&gt;.../&gt;" />
-            <marker date="1575488502717" expanded="true" signature="739:876" ph="&lt;&lt;RowDefinition Height=&quot;Auto&quot; /&gt; &lt;RowDefinition Height=&quot;*&quot; /&gt;.../&gt;" />
-            <marker date="1575488502717" expanded="true" signature="885:1000" ph="&lt;.../&gt;" />
-            <marker date="1575488502717" expanded="true" signature="1085:1301" ph="&lt;.../&gt;" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PasswordTextfeld.xaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="15" lean-forward="true" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
-          <folding>
-            <marker date="1575500337208" expanded="true" signature="0:1009" ph="&lt;&lt;Grid&gt;&#10;        &#10;    &lt;/Grid&gt;.../&gt;" />
-            <marker date="1575500337208" expanded="true" signature="474:999" ph="&lt;&lt;StackPanel Orientation=&quot;Horizontal&quot; Margin=&quot;10&quot;&gt;&#10;        &lt;TextBox x:Name=&quot;TextBox&quot; Width=&quot;200&quot;  HorizontalAlignment=&quot;Left&quot;/&gt;&#10;        &lt;Button x:Name=&quot;Button&quot; Width=&quot;50&quot;&gt; Click Me&lt;/Button&gt;&#10;        &lt;/StackPanel&gt;.../&gt;" />
-            <marker date="1575500337208" expanded="true" signature="497:664" ph="&lt;.../&gt;" />
-            <marker date="1575500337208" expanded="true" signature="698:983" ph="&lt;&lt;TextBox x:Name=&quot;TextBox&quot; Width=&quot;200&quot;  HorizontalAlignment=&quot;Left&quot;/&gt; &lt;Button x:Name=&quot;Button&quot; Width=&quot;50&quot;&gt; Click Me&lt;/Button&gt;.../&gt;" />
+            <marker date="1576108471290" expanded="true" signature="6:105" ph="..." />
+            <marker date="1576108471290" expanded="true" signature="129:1536" ph="{...}" />
+            <marker date="1576108471290" expanded="true" signature="191:1534" ph="{...}" />
+            <marker date="1576108471290" expanded="true" signature="270:396" ph="{...}" />
+            <marker date="1576108471290" expanded="true" signature="466:592" ph="{...}" />
+            <marker date="1576108471290" expanded="true" signature="794:1528" ph="{...}" />
+            <marker date="1576108471290" expanded="true" signature="1061:1400" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PasswordTextfeld.xaml.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        <state relative-caret-position="496">
+          <caret line="31" column="38" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
           <folding>
-            <marker date="1575499605171" expanded="true" signature="45:201" ph="{...}" />
-            <marker date="1575499605171" expanded="true" signature="98:199" ph="{...}" />
-            <marker date="1575499605171" expanded="true" signature="138:193" ph="{...}" />
+            <marker date="1576107351462" expanded="true" signature="6:74" ph="..." />
+            <marker date="1576107351462" expanded="true" signature="98:1286" ph="{...}" />
+            <marker date="1576107351462" expanded="true" signature="182:1284" ph="{...}" />
+            <marker date="1576107351462" expanded="true" signature="223:908" ph="{...}" />
+            <marker date="1576107351462" expanded="true" signature="465:896" ph="{...}" />
+            <marker date="1576107351462" expanded="true" signature="978:1060" ph="{...}" />
+            <marker date="1576107351462" expanded="true" signature="1095:1211" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PasswordTextfield.xaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="38" lean-forward="true" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+          <folding>
+            <marker date="1576105736591" expanded="true" signature="0:1299" ph="&lt;&lt;Grid&gt;&#10;                &lt;Grid.RowDefinitions&gt;&#10;                        &lt;RowDefinition Height=&quot;50&quot;/&gt;&#10;                        &lt;RowDefinition Height=&quot;50&quot;/&gt;&#10;                        &lt;RowDefinition Height=&quot;*&quot;/&gt;&#10;                &lt;/Grid.RowDefinitions&gt;&#10;                &#10;                &lt;StackPanel Orientation=&quot;Horizontal&quot; Margin=&quot;10&quot;&gt;&#10;                &lt;TextBox x:Name=&quot;TextBox&quot; Width=&quot;200&quot; Margin=&quot;10 0&quot; Padding=&quot;5&quot; HorizontalAlignment=&quot;Left&quot;/&gt;&#10;                &lt;Button x:Name=&quot;Button&quot; Width=&quot;100&quot; Margin=&quot;10 0&quot; Padding=&quot;5&quot;&gt; Click Me&lt;/Button&gt;&#10;                &lt;/StackPanel&gt;&#10;                &lt;StackPanel Grid.Row=&quot;1&quot;&gt;&#10;                        &lt;TextBlock x:Name=&quot;PasswordBox&quot; Width=&quot;200&quot; Margin=&quot;10 10&quot; Padding=&quot;5&quot; HorizontalAlignment=&quot;Left&quot; &gt;&#10;                                asödkjfsdölfkjsdlkgh&#10;                        &lt;/TextBlock&gt;&#10;                &lt;/StackPanel&gt;&#10;        &lt;/Grid&gt;.../&gt;" />
+            <marker date="1576105736591" expanded="true" signature="427:1289" ph="&lt;&lt;Grid.RowDefinitions&gt;&#10;                        &lt;RowDefinition Height=&quot;50&quot;/&gt;&#10;                        &lt;RowDefinition Height=&quot;50&quot;/&gt;&#10;                        &lt;RowDefinition Height=&quot;*&quot;/&gt;&#10;                &lt;/Grid.RowDefinitions&gt; &lt;StackPanel Orientation=&quot;Horizontal&quot; Margin=&quot;10&quot;&gt;&#10;                &lt;TextBox x:Name=&quot;TextBox&quot; Width=&quot;200&quot; Margin=&quot;10 0&quot; Padding=&quot;5&quot; HorizontalAlignment=&quot;Left&quot;/&gt;&#10;                &lt;Button x:Name=&quot;Button&quot; Width=&quot;100&quot; Margin=&quot;10 0&quot; Padding=&quot;5&quot;&gt; Click Me&lt;/Button&gt;&#10;                &lt;/StackPanel&gt; &lt;StackPanel Grid.Row=&quot;1&quot;&gt;&#10;                        &lt;TextBlock x:Name=&quot;PasswordBox&quot; Width=&quot;200&quot; Margin=&quot;10 10&quot; Padding=&quot;5&quot; HorizontalAlignment=&quot;Left&quot; &gt;&#10;                                asödkjfsdölfkjsdlkgh&#10;                        &lt;/TextBlock&gt;&#10;                &lt;/StackPanel&gt;.../&gt;" />
+            <marker date="1576105736591" expanded="true" signature="450:668" ph="&lt;&lt;RowDefinition Height=&quot;50&quot;/&gt; &lt;RowDefinition Height=&quot;50&quot;/&gt; &lt;RowDefinition Height=&quot;*&quot;/&gt;.../&gt;" />
+            <marker date="1576105736591" expanded="true" signature="702:987" ph="&lt;&lt;TextBox x:Name=&quot;TextBox&quot; Width=&quot;200&quot; Margin=&quot;10 0&quot; Padding=&quot;5&quot; HorizontalAlignment=&quot;Left&quot;/&gt; &lt;Button x:Name=&quot;Button&quot; Width=&quot;100&quot; Margin=&quot;10 0&quot; Padding=&quot;5&quot;&gt; Click Me&lt;/Button&gt;.../&gt;" />
+            <marker date="1576105736591" expanded="true" signature="1004:1273" ph="&lt;&lt;TextBlock x:Name=&quot;PasswordBox&quot; Width=&quot;200&quot; Margin=&quot;10 10&quot; Padding=&quot;5&quot; HorizontalAlignment=&quot;Left&quot; &gt;&#10;                                asödkjfsdölfkjsdlkgh&#10;                        &lt;/TextBlock&gt;.../&gt;" />
+            <marker date="1576105736591" expanded="true" signature="1054:1243" ph="&lt;asödkjfsdölfkjsdlkgh.../&gt;" />
           </folding>
         </state>
       </provider>
